@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mhallin@gmail.com"]
   spec.summary       = "A vagrant plugin that forwards file system events from the host to the guest"
   spec.description   = spec.summary
-  spec.homepage      = "https://github.com/mhallin/vagrant-notify-forwarder"
+  spec.homepage      = "https://github.com/ducconit/vagrant-notify-forwarder"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
