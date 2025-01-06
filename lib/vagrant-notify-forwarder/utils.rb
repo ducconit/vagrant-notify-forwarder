@@ -36,7 +36,7 @@ module VagrantPlugins
         path = env[:tmp_path].join File.basename(url)
         should_download = true
 
-        if File.exists? path
+        if File.exist? path
           digest = Digest::SHA256.file(path).hexdigest
 
           if digest == sha256sum
